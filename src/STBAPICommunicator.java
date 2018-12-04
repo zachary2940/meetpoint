@@ -7,7 +7,7 @@ import org.json.*;
 
 public class STBAPICommunicator {
     private String basicURL = "https://tih-api.stb.gov.sg/map/v1/search/dataset/";
-    private String key = "&apikey=10ddFoEJRJQTJLvpxaF1nmQ6AClmSI2W";
+    private String key = "&apikey=";
 
     public ArrayList<JSONObject> getAddress(String place, String latitude_m, String longitude_m, String radius) throws Exception {
         String urlToRead = basicURL + place + "?location=" + latitude_m + "%2C" + longitude_m + "&radius=" + radius + key;

@@ -4,7 +4,7 @@ import org.json.*;
 
 public class MapsAPICommunicator {
     private String basicURL = "https://maps.googleapis.com/maps/api/";
-    private String key = "&key=AIzaSyDTUpNA98QYCtbUyb3H_vMeUk3oroJysko";
+    private String key = "&key=";
 
     public MapsAPICommunicator(){}
 
